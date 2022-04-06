@@ -1,0 +1,22 @@
+package TestNgBasics;
+
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
+@Ignore
+public class GardenInsurance {
+	@Test
+	public void WebLogin()
+	{
+	System.out.println("garden Insurance weblogin");	
+	}
+	@Test
+	public void MobileLogin()
+	{
+	System.out.println("garden Insurance mobilelogin");	
+	}
+	@Test
+	public void APILogin()
+	{
+	System.out.println("garden Insurance APIlogin");	
+	}
+}

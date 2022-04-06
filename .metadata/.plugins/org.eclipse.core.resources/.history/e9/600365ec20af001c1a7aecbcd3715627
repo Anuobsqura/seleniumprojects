@@ -1,0 +1,11 @@
+package seleniumtraining;
+
+public class EdgeBrowser {
+		
+		public static void main(String[] args) {
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\330 S\\Downloads\\edgedriver_win64.zip\\msedgedriver.exe");
+			WebDriver driver = new FirefoxDriver();
+			driver.get("https://www.google.co.in/");
+	}}
+
+}
