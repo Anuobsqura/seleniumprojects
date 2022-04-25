@@ -11,7 +11,8 @@ public class SeleniumAlert {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
+	
 		driver.switchTo().frame(driver.findElement(By.id("iframeResult")));
 		driver.findElement(By.xpath("//button[@onclick='myFunction()']")).click();
 		String alertmsg = driver.switchTo().alert().getText();
