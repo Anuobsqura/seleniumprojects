@@ -19,6 +19,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\330 S\git\seleniumprojects\seleniumtraining"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -60,11 +61,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="SeleniumLiveProject"/>
+			<item value="PageFact"/>
 			<item value="Obsqura"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="PayRoll"/>
+			<item value="POMProgram"/>
 			<item value="Obsqura"/>
 		</list>
 		<list key="projectNameTemplate">
